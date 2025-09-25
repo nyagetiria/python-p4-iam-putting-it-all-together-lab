@@ -1,0 +1,12 @@
+- [x] Edit server/models.py to add id, username, _password_hash, image_url, bio, recipes relationship to User
+- [x] Add password property and setter to User
+- [x] Edit server/models.py to add id, title, instructions, minutes_to_complete, user_id to Recipe
+- [x] Add validates method for instructions in Recipe
+- [x] Add authenticate method to User model
+- [x] Add DB creation fixture in conftest.py
+- [x] Implement Signup resource in app.py
+- [x] Implement CheckSession resource in app.py
+- [x] Implement Login resource in app.py
+- [x] Implement Logout resource in app.py
+- [x] Implement RecipeIndex resource in app.py
+- [ ] Run pytest to verify fixes
